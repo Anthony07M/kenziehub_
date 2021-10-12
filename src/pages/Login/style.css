@@ -1,0 +1,47 @@
+:root{
+    --blue: #007bff;
+    --dark: #343a40;
+    --orange: #fd7e14;
+}
+
+body{
+    border: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../../assets/1SCENE.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6ced0d2;
+    border-radius: 10px;
+    width: 75%;
+    height: 60%;
+    padding: 0 25px;
+    opacity: 0.85;
+}
+
+.form-login button{
+    width: 100%;
+}
+
+@media  (min-width: 600px) {
+    .form-login{
+        width: 40%;
+    }
+    .form-login button{
+        width: 45%;
+    }
+}

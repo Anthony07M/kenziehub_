@@ -1,0 +1,48 @@
+.container{
+    background: url('../../assets/2SCENE.svg') no-repeat center;
+    background-color: #1114b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#c5aabe;
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 10px;
+    height: 450px;
+    padding: 0 10px;
+}
+
+.form-register input {
+    height: 10px;
+    padding: 15px 14px;
+}
+
+.form-register button{
+    margin-top: 10px;
+    width: 90%;
+}
+
+@media (min-width: 700px){
+    .form-register{
+        width: 30%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-register input {
+        width: 100%;
+    }
+    .form-register button {
+        width: 60%;
+    }
+}

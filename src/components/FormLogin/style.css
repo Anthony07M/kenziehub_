@@ -1,0 +1,16 @@
+:root{
+    --blue: #007bff;
+    --dark: #343a40;
+    --orange: #fd7e14;
+}
+
+p{
+    font-family: monospace;
+    font-size: 11px;
+
+}
+
+a{
+    color: #f50057;
+    text-decoration: none;
+}
